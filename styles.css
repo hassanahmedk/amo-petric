@@ -9,7 +9,7 @@
 }
 
 html {
-  font-size: 16px; /* Default size */
+  font-size: 16px;
 }
 
 * {
@@ -62,7 +62,7 @@ button.primary {
   background-color: var(--pink);
   box-shadow: 0;
   border: 0;
-  color: white;
+  color: #ffffff;
   font-size: 1rem;
   font-family: var(--secondary-font);
   cursor: pointer;
@@ -87,7 +87,7 @@ button.primary:hover {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 6rem;
-  color: white;
+  color: #ffffff;
   position: fixed;
   width: 100%;
   top: 0;
@@ -108,7 +108,7 @@ button.primary:hover {
 }
 
 .nav-list-item a {
-  color: white;
+  color: #ffffff;
   font-weight: 400;
   font-family: var(--secondary-font);
 }
@@ -213,7 +213,7 @@ button.primary:hover {
 }
 .perk-box-2 {
   background: linear-gradient(135deg, #ff7070, #db5f5f);
-  color: white;
+  color: #ffffff;
 }
 
 .perk-box-info {
@@ -236,7 +236,7 @@ button.primary:hover {
 
 .perk-box-2 .perk-description,
 .perk-box-2 .perk-link {
-  color: white;
+  color: #ffffff;
 }
 
 .perk-link {
@@ -300,7 +300,7 @@ button.primary:hover {
 
 .about-brands {
   background-color: var(--charcoal);
-  color: white;
+  color: #ffffff;
   width: 100%;
   border-radius: 6px;
   display: flex;
@@ -386,7 +386,7 @@ button.primary:hover {
 .package-button {
   background-color: var(--charcoal);
   padding: 1rem 4rem;
-  color: white;
+  color: #ffffff;
   font-size: 1.2rem;
 }
 
@@ -402,7 +402,7 @@ button.primary:hover {
   width: 100%;
   margin: 0 4rem;
   border-radius: 10px;
-  color: white;
+  color: #ffffff;
   justify-content: space-around;
 }
 
@@ -544,7 +544,7 @@ button.primary:hover {
 }
 
 #partners .about-brands {
-  background-color: white;
+  background-color: #ffffff;
   color: var(--charcoal);
 }
 /* Partners Section End */
@@ -573,7 +573,7 @@ button.primary:hover {
   flex-direction: column;
   gap: 1rem;
   max-height: 5rem;
-  transition: all 0.2s;
+  transition: all 0.4s ease-in;
   overflow: hidden;
   cursor: pointer;
 }
@@ -600,7 +600,7 @@ button.primary:hover {
 /* Footer Section Start */
 .footer {
   background-color: #202020;
-  color: white;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   padding: 3rem 6rem;
@@ -631,7 +631,7 @@ button.primary:hover {
 }
 
 .footer-list a {
-  color: white;
+  color: #ffffff;
   font-weight: 300;
   font-size: 1.2rem;
 }
