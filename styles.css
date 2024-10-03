@@ -769,6 +769,10 @@ button.primary:hover {
     font-size: 10px;
   }
 
+  .header {
+    padding: 1rem 3rem;
+  }
+
   .navigation {
     display: none;
   }
@@ -824,6 +828,10 @@ button.primary:hover {
 
   button.primary {
     font-size: 1.4rem;
+  }
+
+  #faq {
+    max-height: 36rem;
   }
 
   .footer {
