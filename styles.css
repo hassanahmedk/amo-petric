@@ -83,9 +83,7 @@ button.primary:hover {
 /* Header Section Start */
 .header {
   background-color: #202020e7;
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem 6rem;
   color: #ffffff;
   position: fixed;
