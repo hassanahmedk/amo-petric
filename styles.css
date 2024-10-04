@@ -173,7 +173,7 @@ button.primary:hover {
   height: 500px;
   border-radius: 15px;
   background: linear-gradient(
-    234.43deg,
+    230deg,
     rgba(210, 214, 49, 0.54) -17.35%,
     rgba(204, 207, 61, 0.808429) 38.06%,
     #d9dd2b 116.67%
@@ -294,7 +294,7 @@ button.primary:hover {
   height: 15rem;
   width: 30%;
   border-radius: 10px;
-  background: #c74b8c;
+  background-color: #c74b8c;
   background: linear-gradient(135deg, #c74b8c, #d7553a);
 }
 
@@ -331,6 +331,7 @@ button.primary:hover {
   gap: 3rem;
   margin-top: 1rem;
   font-size: 1.1rem;
+  opacity: 0.6;
 }
 
 /* About Section End */
