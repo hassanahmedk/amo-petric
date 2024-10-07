@@ -100,7 +100,7 @@ const validateForm = () => {
 contactForm.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  if (validateForm()) {
+  if (validateForm() === true) {
     alert("Form submitted successfully");
     window.location.reload();
   }
