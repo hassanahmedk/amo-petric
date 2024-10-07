@@ -26,11 +26,26 @@
         </ul>
       </nav>
       <div class="header-options flex">
-        <img
-          src="./assets/icons/search.svg"
-          class="header-icon"
-          alt="search-icon"
-        />
+        <form
+          class="flex"
+          target="_blank"
+          method="post"
+          id="header-search-form"
+        >
+          <input
+            type="text"
+            name="search"
+            placeholder="Browse"
+            class="search-input"
+          />
+          <button type="submit" class="header-icon search-icon-button">
+            <img
+              src="./assets/icons/search.svg"
+              class="header-icon search-icon"
+              alt="search-icon"
+            />
+          </button>
+        </form>
         <img
           src="./assets/icons/cart.svg"
           class="header-icon"
@@ -327,14 +342,19 @@
           <h2 class="section-heading subscribe-heading">
             Subscribe For Daily Updates & Amaging Offers
           </h2>
-          <form action="/" method="post">
-            <input
-              type="email"
-              class="subscribe-input"
-              placeholder="Enter Your Email"
-            />
-            <button class="primary">Subscribe</button>
+          <form action="/" method="post" id="subscribe-form">
+            <div class="subscribe-form-inner">
+              <input
+                type="text"
+                class="subscribe-input"
+                placeholder="Enter Your Email"
+              />
+              <button class="primary" type="submit">Subscribe</button>
+            </div>
+            <p class="email-error">❌ Please enter a valid email addrees</p>
+            <p class="email-success">✅ You entered a valid email address</p>
           </form>
+          <div class="email-form-feedbacks"></div>
         </div>
         <div class="subscribe-image"></div>
       </section>
@@ -369,10 +389,10 @@
           <div class="faq">
             <p class="faq-ques">2. Question number Two?</p>
             <p class="faq-answer">
-              There have suffered alteration in some form, by injected humour.
-              are many variations of passages of Lorem Ipsum available, but the
-              majority have suffered alteration in some form, by injected
-              humour.
+              There have suffered alteration in various form, by injected
+              humour. are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour.
             </p>
           </div>
           <div class="faq">
@@ -412,5 +432,56 @@
       </div>
     </footer>
     <!-- Footer  End-->
+
+    <!-- Contact us modal -->
+    <div class="contact-modal flex">
+      <div class="modal-blur-layer"></div>
+      <form action="" class="modal-form" id="modal-form">
+        <div class="modal-close-icon">
+          <img
+            class="close-icon"
+            src="./assets/icons/close.png"
+            alt="close-icon"
+          />
+        </div>
+        <h3 class="modal-heading">Contact Us</h3>
+        <div class="contact-input-container">
+          <input
+            type="text"
+            name="name"
+            class="name-input modal-input"
+            placeholder="Full Name"
+          />
+          <p class="contact-modal-error contact-name-error">
+            * Please enter a valid name
+          </p>
+        </div>
+        <div class="contact-input-container">
+          <input
+            type="text"
+            name="email"
+            class="email-input modal-input"
+            placeholder="Email address"
+          />
+          <p class="contact-modal-error contact-email-error">
+            * Please enter a valid email address
+          </p>
+        </div>
+        <div class="contact-input-container">
+          <textarea
+            name="message"
+            cols="4"
+            class="message-input modal-input"
+            placeholder="Your message"
+          ></textarea>
+          <p class="contact-modal-error contact-message-error">
+            * Please enter a message
+          </p>
+        </div>
+        <button class="primary modal-button">Send Message</button>
+      </form>
+    </div>
+
+    <script src="./index.js"></script>
   </body>
 </html>
