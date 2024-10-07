@@ -124,6 +124,7 @@ button.primary:hover {
 }
 
 /* Visible on large screens */
+/* its hiden on mobile */
 .search-input {
   display: none;
 }
